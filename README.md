@@ -24,4 +24,6 @@ pip install -r requirements.txt
 
 ## Lưu ý
 
-VPT HELPER KIT chỉ sử dụng được trên **windows**
+- VPT HELPER KIT chỉ sử dụng được trên **windows**
+- Chỉ sử dụng được file **flash.exe** (Flash 10) để log game. Nếu muốn đổi flash bạn cần có kiến thức về Cheat Engine và Memory để sửa lại các pointer trong class HelperKit
+- File **acc.txt** để lưu trữ danh sách link acc. Có thể chỉnh sửa lại tên file trong class **AccountInfo**

@@ -22,6 +22,11 @@ pip install -r requirements.txt
 
 3. Import `helperkit` vào dự án và sử dụng
 
+## Kiến thức liên quan
+
+1. Python
+2. Cheat Engine: [Pointer Scan](https://www.youtube.com/watch?v=8oC0w6WhZ1E)
+
 ## Lưu ý
 
 - VPT HELPER KIT chỉ sử dụng được trên **windows**

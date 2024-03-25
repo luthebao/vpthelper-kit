@@ -17,7 +17,7 @@ class TableDevKit(tk.Tk):
         self.pickflashBtn.place(x=5,y=12, width=110)
         self.label_pid = ttk.Label(self, text="PID:")
         self.label_pid.place(x=120, y=13)
-        self.button_inject = ttk.Button(self, text="Inject Code", command=self.checkInjected, state=tk.NORMAL)
+        self.button_inject = ttk.Button(self, text="Inject", command=self.checkInjected, state=tk.NORMAL)
         self.button_inject.place(x=210, y=10)
         
         self.button_BUGBAY = ttk.Button(self, text="Bug Bay", command=self.bug_bay, state=tk.DISABLED)

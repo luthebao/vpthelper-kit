@@ -739,10 +739,11 @@ class HelperKit:
         win32gui.ShowWindow(self.hWnd, win32con.SW_SHOWDEFAULT)
 
 class AccountInfo:
-    def __init__(self, link: str = "", username: str = "") -> None:
+    def __init__(self, link: str = "", username: str = "", account_path:str = "./acc.txt") -> None:
         self.CREATE_NO_WINDOW = 0x08000000
         self.link = link
         self.username = username
+        self.account_path = account_path
         if len(username) == 0:
             self.username = self.getuser(link)
         elif len(link) == 0:
@@ -779,7 +780,7 @@ class AccountInfo:
             return "s32"
         
     def getlink(self, user: str) -> str:
-        with open("./acc.txt", "r") as f_2:
+        with open(self.account_path, "r") as f_2:
             l_acc2 = f_2.readlines()
         l_acc2 = [x.strip() for x in l_acc2]
         acc_to_del = "###"

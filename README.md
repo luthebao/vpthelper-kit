@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ![dev-helper](/assets/dev-helper.png)
 
-2. Tìm hiểu thêm tại [wiki](/wiki)
+2. Tìm hiểu thêm tại [wiki](../../wiki)
 
 ## Lưu ý
 
